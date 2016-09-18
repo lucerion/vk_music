@@ -32,13 +32,6 @@ Execute `./bin/vk_music`
 ```
 
 
-## TODO
-
-* timeout between file downloads
-* retry on fail and failure timeout
-* albums
-
-
 ## License
 
 [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
