@@ -5,7 +5,7 @@ module VKMusic
       @synchronizer = VKMusic::Synchronizer.new(config)
     end
 
-    def run
+    def run!
       @client.authenticate!
       @synchronizer.download(@client.audio.fetch('items'))
     end
